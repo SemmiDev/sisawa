@@ -3,7 +3,7 @@
 @endphp
 
 @push('head')
-    @vite("resources/css/layouts/bab/$alias/dongeng_kewan.css")
+    @vite("resources/css/layouts/bab/dongeng_kewan.css")
 @endpush
 
 <section class="w-full max-w-3xl pt-4 mx-auto">
