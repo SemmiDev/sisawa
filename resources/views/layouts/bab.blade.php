@@ -12,7 +12,8 @@
 @endpush
 
 @push('body')
-    @vite("resources/js/layouts/bab/$alias.js")
+    <!-- @vite("resources/js/layouts/bab/$alias.js") -->
+        @vite("resources/js/layouts/bab/$alias/jenisGamelan.js")
 @endpush
 
 @push('content')
