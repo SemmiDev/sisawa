@@ -22,5 +22,5 @@
     @include("layouts.bab.$alias.tab_dolanan")
 @endsection
 
-@section('icon-tab-0', Vite::asset("public/images/bab/prastawa_alam.png"))
+@section('icon-tab-0', Vite::asset("resources/images/bab/prastawa_alam.png"))
 @section('icon-tab-1', Vite::asset("resources/images/materi/tabListItemInfo.png"))

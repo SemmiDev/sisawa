@@ -20,4 +20,4 @@
 @endsection
 
 @section('icon-tab-1', Vite::asset("resources/images/materi/tabListItemInfo.png"))
-@section('icon-tab-0', Vite::asset("public/images/bab/gamelan.png"))
+@section('icon-tab-0', Vite::asset("resources/images/bab/gamelan.png"))
