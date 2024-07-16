@@ -3,12 +3,12 @@
 @endphp
 
 @push('head')
-    @vite("resources/css/layouts/bab/$alias/tembang_dolanan.css")
+    @vite("resources/css/layouts/bab/tembang_dolanan.css")
 @endpush
 
-<section class="w-full max-w-3xl mx-auto pt-4">
+<section class="w-full max-w-3xl pt-4 mx-auto">
     <div class="relative">
-        <div class="list-tembang swiper swiper-horizontal max-w-2xl rounded-xl" data-initialindex="{{ array_search(['judhul' => request()->get('judhul')], $listJudhul->toArray()) }}">
+        <div class="max-w-2xl list-tembang swiper swiper-horizontal rounded-xl" data-initialindex="{{ array_search(['judhul' => request()->get('judhul')], $listJudhul->toArray()) }}">
             <div class="swiper-wrapper !h-auto space-x-3">
                 @foreach ($listJudhul as $item)
                     <a href="{{ request()->fullUrlWithQuery(['judhul' => $item->judhul]) }}"
