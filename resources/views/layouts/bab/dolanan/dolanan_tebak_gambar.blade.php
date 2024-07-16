@@ -11,7 +11,6 @@
 @section('initial-tab', 2)
 
 @push('head')
-    @vite("resources/css/layouts/bab/dolanan/$namaDolanan.css")
     <style>
         .tebak-gambar-card {
             width: 80px;
@@ -56,8 +55,8 @@
                 App\Helpers\Helper::shuffle_assoc($listGambar);
             @endphp
 
-            <p class="petunjuk text-center mb-5">Elinga gambar gamelan ing ngisor iki!!</p>
-            <p class="pertanyaan text-center hidden mb-5">Gambar nomer pira kang nuduhake gambar kang padha?</p>
+            <p class="mb-5 text-center petunjuk">Elinga gambar gamelan ing ngisor iki!!</p>
+            <p class="hidden mb-5 text-center pertanyaan">Gambar nomer pira kang nuduhake gambar kang padha?</p>
 
             <div class="flex justify-center">
                 <div class="pertanyaan-gambar py-4 transition-all duration-[2s] max-h-0 max-w-0 opacity-0"
@@ -67,7 +66,7 @@
                         'index' => '?',
                     ])
                 </div>
-                <div class="grid-soal p-1 lg:p-3 grid grid-cols-2 lg:grid-cols-3 gap-2">
+                <div class="grid grid-cols-2 gap-2 p-1 grid-soal lg:p-3 lg:grid-cols-3">
                     @foreach ($listGambar as $index => $gambar)
                         @include("layouts.bab.dolanan.$namaDolanan" . '_card', [
                             'gambar' => $gambar,
@@ -79,7 +78,7 @@
 
             <div class="text-center" style="margin-top: 10px">
                 <button class="mulai btn btn-info">Wiwit</button>
-                <button class="mriksa btn btn-success hidden">Mriksa Bebener</button>
+                <button class="hidden mriksa btn btn-success">Mriksa Bebener</button>
             </div>
         </section>
 
