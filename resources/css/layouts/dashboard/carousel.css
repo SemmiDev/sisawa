@@ -1,0 +1,38 @@
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    width: 2rem;
+    border-radius: 2rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #A6BB8D;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #A6BB8D !important;
+}
+
+.hero-title {
+    font-family: "Kaushan Script";
+}

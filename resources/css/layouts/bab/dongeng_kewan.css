@@ -1,0 +1,31 @@
+body {
+    background-color: #848ada;
+    background-image: url("/resources/images/bab/bg_dongeng.png");
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #9a2c1f !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 1.5rem;
+}
+
+.swiper-button-lock {
+    display: flex !important;
+}
+
+.swiper-slide {
+    background-color: #FFCBE4;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-slide:hover {
+    background-color: #F7ADAD;
+}
+
+

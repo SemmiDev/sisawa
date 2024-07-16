@@ -1,0 +1,6 @@
+body {
+    background-color: #fef8c9;
+    background-image: url("/resources/images/bab/bg_gamelan.jpeg");
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}

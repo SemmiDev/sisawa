@@ -1,0 +1,11 @@
+input[type="text"] {
+    @apply input input-bordered w-full;
+}
+
+input[type="file"] {
+    @apply file-input w-full;
+}
+
+textarea {
+    @apply textarea textarea-bordered w-full;
+}

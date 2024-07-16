@@ -1,0 +1,4 @@
+.word {
+    /* @apply transition-all duration-300 transform hover:scale-105; */
+    @apply p-4 text-center rounded-2xl hover:bg-slate-300;
+}

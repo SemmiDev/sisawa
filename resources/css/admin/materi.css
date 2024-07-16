@@ -1,0 +1,5 @@
+body {
+    background-image: url("/resources/images/dashboard/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}

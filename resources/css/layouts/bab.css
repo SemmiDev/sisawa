@@ -1,0 +1,11 @@
+.paginasi {
+    @apply pt-5;
+}
+
+.paginasi a {
+    @apply btn btn-outline;
+}
+
+.paginasi span {
+    @apply btn btn-disabled text-gray-400;
+}

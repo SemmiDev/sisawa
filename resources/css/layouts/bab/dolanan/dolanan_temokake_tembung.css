@@ -1,0 +1,94 @@
+.fix:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+/* home */
+.wrap {
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.logo,
+#gameArea {
+    margin-bottom: 40px;
+}
+
+.ws-area,
+.ws-words {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ws-words {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.ws-word {
+    margin-bottom: 4px;
+}
+
+.ws-words ::first-letter {
+    text-transform: capitalize;
+}
+/* Wordsearch */
+
+.ws-area {
+    background: #fafafa;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.ws-row {
+    display: flex;
+    line-height: 0;
+}
+
+.ws-col {
+    cursor: pointer;
+}
+
+.ws-col.ws-selected {
+    background: #eee;
+}
+
+.ws-found {
+    background: yellow;
+}
+
+.ws-game-over-outer {
+    background: rgba(0, 0, 0, 0.85);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ws-game-over h2 {
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 9px 0;
+    text-align: center;
+}
+
+.ws-game-over p {
+    color: #ffffff;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}

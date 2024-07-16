@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply m-0 min-h-screen;
+}
+
+.ui-menu {
+    @apply menu gap-2 bg-white w-56 rounded-2xl;
+}
+
+.ui-menu .ui-menu-item .ui-state-active {
+    @apply bg-gray-300;
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: #caf8f9;
+    background-image: url("/resources/images/bab/bg_prastawa.jpeg");
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #b01f0f !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 1.5rem;
+}
+
+.swiper-button-lock {
+    display: flex !important;
+}
+
+.swiper-slide {
+    background-color: pink;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-slide:hover {
+    background-color: #F7ADAD;
+}

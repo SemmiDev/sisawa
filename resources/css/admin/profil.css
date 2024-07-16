@@ -1,0 +1,17 @@
+body {
+    background-image: url("/resources/images/dashboard/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+input {
+    @apply input input-bordered w-full;
+}
+
+input[type="file"] {
+    @apply file-input w-full;
+}
+
+textarea {
+    @apply textarea textarea-bordered w-full;
+}
