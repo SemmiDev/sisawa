@@ -3,7 +3,8 @@
 @section('title', 'Materi | Guru')
 
 @push('head')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
     @vite('resources/css/admin/materi.css')
     @vite('resources/css/admin/toastr.css')
 @endpush
