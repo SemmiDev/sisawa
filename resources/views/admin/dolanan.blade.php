@@ -3,6 +3,7 @@
 @section('title', 'Materi | Guru')
 
 @push('head')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     @vite('resources/css/admin/materi.css')
     @vite('resources/css/admin/toastr.css')
 @endpush
@@ -12,8 +13,8 @@
 @endsection
 
 @push('content')
-    <div class="max-w-6xl mx-auto pb-20">
-        <h1 class="text-3xl mt-5 mb-10 flex items-center gap-4">
+    <div class="max-w-6xl pb-20 mx-auto">
+        <h1 class="flex items-center gap-4 mt-5 mb-10 text-3xl">
             <a class="btn btn-ghost btn-circle" href="@yield('sakdurunge', '/')"><i data-lucide="chevron-left"></i></a>
             <span class="flex-1">@yield('mode') Dolanan {{ $bab->judhul }} @yield('judul_dolanan')</span>
             @yield('action')
