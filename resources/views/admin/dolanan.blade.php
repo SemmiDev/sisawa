@@ -4,7 +4,7 @@
 
 @push('head')
     @vite('resources/css/admin/materi.css')
-    @vite('resources/css/admin/toastr.css')
+    {{-- @vite('resources/css/admin/toastr.css') --}}
 @endpush
 
 @section('navbar')
@@ -25,8 +25,8 @@
 
 @push('body')
     @vite('resources/js/admin/materi.js')
-    @vite('resources/js/admin/toastr.js')
-    @vite('resources/js/admin/toastr.js.map')
+    {{-- @vite('resources/js/admin/toastr.js')
+    @vite('resources/js/admin/toastr.js.map') --}}
     @if (Session::has('success'))
         <script>
             setTimeout(() => {
