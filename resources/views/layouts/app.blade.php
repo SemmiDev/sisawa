@@ -17,14 +17,9 @@
 
     <!-- Pustaka Ikon Lucide -->
     <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+    <!-- Include SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/1.3.1/js/toastr.js"></script>
-        <!-- Include SweetAlert -->
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/1.3.1/css/toastr.css" rel="stylesheet"/>
-        <link href="toastr.css" rel="stylesheet"/>
-        <script src="toastr.js"></script>
     @vite('resources/css/app.css')
     @stack('head')
 </head>
