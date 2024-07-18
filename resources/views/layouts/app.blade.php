@@ -14,13 +14,15 @@
             }
         </style>
     </noscript>
-    
+
     <!-- Pustaka Ikon Lucide -->
     <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
 
         <!-- Include SweetAlert -->
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+        <link href="toastr.css" rel="stylesheet"/>
+        <script src="toastr.js"></script>
     @vite('resources/css/app.css')
     @stack('head')
 </head>
@@ -29,14 +31,14 @@
     @yield('navbar')
     @stack('content')
     @vite('resources/js/app.js')
-    
+
     <!-- Inisialisasi Ikon Lucide -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             lucide.createIcons();
         });
     </script>
-    
+
     @stack('body')
 </body>
 
